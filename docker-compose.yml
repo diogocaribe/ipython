@@ -1,15 +1,9 @@
 version: '3'
-
 services: 
   ipython:
-    image: jupyter/datascience-notebook
+    image: dogosousa/ipython
     container_name: ipython
     ports: 
       - "8888:8888"
     volumes: 
-      - ${HOME}/PROCESSADA:/home/jovyan/work/PROCESSADA
-      - ${HOME}/ipython:/home/jovyan/work
-    
-
-
-
+      - ${HOME}/PROCESSADA:/home/PROCESSADA
