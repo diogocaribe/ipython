@@ -26,6 +26,8 @@ RUN pip install jupyter \
         scikit-learn \
         matplotlib \
         setuptools \
+        pathlib \
+        scikit-image \
         pygdal==2.3.2.4
         
 ENV TINI_VERSION v0.18.0
