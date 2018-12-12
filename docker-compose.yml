@@ -6,4 +6,5 @@ services:
     ports: 
       - "8888:8888"
     volumes: 
-      - ${HOME}/PROCESSADA:/home/PROCESSADA
+      - ${HOME}/PROCESSADA:/opt/work/PROCESSADA
+      - ${HOME}/ipython:/opt/work

@@ -37,6 +37,7 @@ ENTRYPOINT ["/usr/bin/tini", "--"]
 
 EXPOSE 8888
 
+RUN mkdir -p /opt/work
+WORKDIR /opt/work
+
 CMD ["jupyter", "notebook", "--no-browser", "--ip=0.0.0.0", "--allow-root"]
-
-
