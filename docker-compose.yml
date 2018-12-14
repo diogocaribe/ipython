@@ -6,5 +6,5 @@ services:
     ports: 
       - "8888:8888"
     volumes: 
-      - ${HOME}/PROCESSADA:/opt/work/PROCESSADA
-      - ${HOME}/ipython:/opt/work
+      #- ${HOME}/PROCESSADA:/opt/work/PROCESSADA
+      - /mnt/geo/COTIC/GEOPROCESSAMENTO/GEO_DADOS/2_RASTER/2.1_ORTO/PROCESSAR_SENTINEL/:/opt/work
